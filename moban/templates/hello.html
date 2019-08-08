@@ -1,2 +1,6 @@
 <!doctype html>
-	<h1>hello{{ name }}!</h1>
+	{% if marks>50 %}
+	<h1>your result is pass!</h1>
+	{% else %}
+	<h1>your result is fail</h1>
+	{% endif %}
