@@ -1,6 +1,8 @@
 <!doctype html>
-	{% if marks>50 %}
-	<h1>your result is pass!</h1>
-	{% else %}
-	<h1>your result is fail</h1>
-	{% endif %}
+<body><h1>Hello from Flask</h1></body>
+<hr>
+{% if name %}
+  <h4>Hello {{ name }}!</h4>
+{% else %}
+  <h4>Hello World!</h4>
+{% endif %}
